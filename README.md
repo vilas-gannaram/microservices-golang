@@ -1,2 +1,2 @@
-# micro-services-with-golang
+# MicroServices Golang
 CrashCourse - MicroServices with Golang 

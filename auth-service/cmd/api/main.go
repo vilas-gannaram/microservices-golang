@@ -12,7 +12,7 @@ import (
 	_ "github.com/jackc/pgx/v4/stdlib"
 )
 
-const webPort = "8000"
+const webPort = "80"
 
 var counts int64
 
@@ -26,7 +26,7 @@ func main() {
 
 	// TODO connect to Database
 	conn := connectToDB()
-	if conn == nil { 
+	if conn == nil {
 		log.Panic("Can't connect to Postgres!")
 	}
 

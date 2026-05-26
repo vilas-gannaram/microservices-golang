@@ -12,5 +12,8 @@
 		{
 			"path": "auth-service",
 		},
+		{
+			"path": "logger-service",
+		},
 	],
 }
